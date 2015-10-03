@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DNSCrypt Installer</string>
+
+    <string name="action_install">Install</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="local">Client</string>
+    <string name="local_addr">Local address</string>
+    <string name="client_key">Client key</string>
+
+    <string name="server">Server</string>
+    <string name="list_mode">List mode</string>
+
+    <string name="resolvers_list">Resolvers list</string>
+    <string name="resolver_name">Resolver name</string>
+
+    <string name="provider_key">Provider key</string>
+    <string name="provider_name">Provider name</string>
+    <string name="resolver_addr">Resolver address</string>
+
+    <string name="options">Options</string>
+    <string name="max_active_requests">Max active requests</string>
+    <string name="edns_payload_size">EDNS payload size</string>
+    <string name="ephemeral_keys">Ephemeral keys</string>
+    <string name="tcp_only">TCP only</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="select">Select</string>
+
+</resources>

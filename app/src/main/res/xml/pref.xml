@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="@string/client_key"
+        android:key="client_key"
+        android:digits="1234567890:ABCDEF"
+        android:inputType="textCapCharacters"/>
+    <EditTextPreference android:title="@string/edns_payload_size"
+        android:key="edns_payload_size"
+        android:inputType="number"/>
+    <EditTextPreference android:title="@string/max_active_requests"
+        android:key="max_active_requests"
+        android:inputType="number"/>
+    <CheckBoxPreference android:title="@string/ephemeral_keys"
+        android:key="ephemeral_keys"/>
+    <CheckBoxPreference android:title="@string/tcp_only"
+        android:key="tcp_only"/>
+
+</PreferenceScreen>
