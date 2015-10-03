@@ -29,6 +29,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/local_addr_Edit"
+                    android:digits="123456790.:[]"
                     android:layout_weight="1" />
 
         </LinearLayout>
@@ -94,6 +95,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/key_list_Edit"
+                    android:digits="1234567890:ABCDEF"
+                    android:inputType="textCapCharacters"
                     android:layout_weight="1" />
         </LinearLayout>
 
@@ -112,6 +115,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/resolver_address_Edit"
+                    android:digits="123456790.:[]"
                     android:layout_weight="1" />
         </LinearLayout>
 
