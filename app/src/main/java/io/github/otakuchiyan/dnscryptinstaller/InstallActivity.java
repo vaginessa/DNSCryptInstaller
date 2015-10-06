@@ -56,8 +56,18 @@ public class InstallActivity extends Activity {
 
     public void onInstallClick(View v){
         BinaryManager bm = new BinaryManager();
+        binPathEdit = (EditText) findViewById(R.id.bin_path_Edit);
+        libPathEdit = (EditText) findViewById(R.id.lib_path_Edit);
+        if(binPathEdit.getText().toString().equals("")){
+            binPathEdit.setError("");
+            return;
+        }
+        if(libPathEdit.getText().toString().equals("")){
+            libPathEdit.setError("");
+            return;
+        }
+
         bm.install(this, binPath, libPath);
-        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
     }
 
     public void onBinaryClick(View v){
